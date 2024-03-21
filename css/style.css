@@ -15,6 +15,7 @@
 
 /* end */
 button {
+    margin-top: 40px;
     text-decoration: none;
     position: relative;
     border: none;
@@ -33,6 +34,7 @@ button {
   }
   
   button:hover {
+   
     animation: ani 8s linear infinite;
     border: none;
   }
@@ -48,6 +50,7 @@ button {
   }
   
   button:before {
+    
     content: "";
     position: absolute;
     top: -5px;
@@ -55,16 +58,38 @@ button {
     right: -5px;
     bottom: -5px;
     z-index: -1;
-    background: linear-gradient(90deg,  #8014d8, #921bc9, #811bc5, #491daf);
+    background: linear-gradient(90deg,  #8e7bff, #8e7bff, #8e7bff, #8e7bff);
     background-size: 200%;
     border-radius: 35px;
     transition: 1s;
   }
   
   button:hover::before {
+    
     filter: blur(20px);
   }
   
   button:active {
     background: linear-gradient(32deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4);
+  }
+
+
+  /*/ end /*/
+
+  .img1{
+   width: 760px;
+   height: 461px;
+  }
+
+  p{
+    margin-top: 40px;
+    font-weight: bold;
+  }
+
+  .p1{
+    margin-top: 10px;
+    font-size: 50px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    font-weight: bold;
   }
