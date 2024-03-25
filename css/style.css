@@ -1,15 +1,15 @@
 #grid1 div[class^="col"]{
-    border: 1px solid black;
+    border-bottom: 3px solid rgb(0, 0, 0);
     min-height: 125px;
 }
 
 #grid2 div[class^="col"]{
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
     min-height: 455px;
 }
 
 #grid3 div[class^="col"]{
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
     min-height: 325px;
 }
 
@@ -93,3 +93,27 @@ button {
     margin-left: 25px;
     font-weight: bold;
   }
+
+  .p2{
+    color: #fff;
+    font-size: xx-large;
+    height: 10px;
+  }
+
+  .p3{
+    color: #fff;
+  }
+
+  .img2{
+    height: 40px;
+    width: 20px;
+  }
+
+  h1{
+    color: #fff;
+  }
+
+  .card{
+    background-color: #8e7bff;
+  }
+    /*/ end /*/
